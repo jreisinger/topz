@@ -2,10 +2,18 @@
 
 List running processes like `top` but in browser. Stolen from [Brendan Burns](https://github.com/brendandburns/topz) :-).
 
+## Install
+
+```
+$ export GOPATH=`pwd`
+$ go get github.com/shirou/gopsutil/process
+$ go install server
+```
+
 ## Run
 
 ```
-$ go run cmd/server/main.go
+$ ./bin/server
 $ curl localhost:8080/topz
 ```
 
