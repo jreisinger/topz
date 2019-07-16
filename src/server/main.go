@@ -1,10 +1,10 @@
 package main
 
 import (
-	"net/http"
 	"log"
+	"net/http"
 
-	"topz/pkg/topz"
+	"topz"
 )
 
 func main() {
